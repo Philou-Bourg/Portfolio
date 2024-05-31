@@ -28,7 +28,7 @@
               </a>
             </p>
           </div>
-          <span class="container_date"> Dernière mise à jour le&nbsp; <time datetime="2024-05-29T00:00:00">  29 mai 2024</time> </span>
+          <span class="container_date"> Dernière mise à jour le&nbsp; <time datetime="2024-05-31T00:00:00">  31 mai 2024</time> </span>
 
         </footer>
       </main>
