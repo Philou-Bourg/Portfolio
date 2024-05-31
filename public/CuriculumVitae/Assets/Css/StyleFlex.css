@@ -1,0 +1,51 @@
+.curiculum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curiculum__tete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curiculum__tete__figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curiculum__tete__coordonnées{
+    display: flex;
+}
+.curiculum__tete__coordonnées__contact{
+    display: flex;
+    
+}
+
+/* Gestion des flex du corp du Curriculum*/
+.curiculum__corp{
+    display: flex;
+    flex-direction:row-reverse
+}
+.curiculum__corp__sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.curiculum__corp__content{
+    display: flex;
+    flex-direction: column;
+}
+.curiculum__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.curiculum__container__Footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
