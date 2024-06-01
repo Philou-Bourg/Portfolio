@@ -1,4 +1,4 @@
-# portfolio2
+# portfolio
 
 Ce modèle devrait vous aider à démarrer le développement avec Vue 3 dans Vite.
 
