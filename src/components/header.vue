@@ -35,8 +35,7 @@ export default {
     },
       // Jouer le fichier audio "Bienvenue.M4A" lorsqu'un clic de l'utilisateur est détecté 
     playAudio() {
-       => { let audio = new Audio('/portfolio/Bienvenue.M4A');
-      audio.play();}, { once: true };  
+      let audio = new Audio('/portfolio/Bienvenue.M4A');    
     },
   }
 }
