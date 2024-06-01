@@ -2,8 +2,9 @@
   <div id="conteneur-global">
     <div id="bleue-ciel">
       <div id="profile-container" @click="scrollToTop">
-          <!-- On affiche la photo avec un événement click qui appelle la méthode scrollToTop et on ajoute une fonction audio au survol-->
-          <img src="@/assets/images/photoSite.jpg" alt="Photo profil de monsieur Peeters" id="image" @mouseover="playAudio">
+          <!-- On affiche la photo avec un événement click qui appelle la méthode scrollToTop et on ajoute une fonction audio au clic-->
+          <img src="@/assets/images/photoSite.jpg" alt="Photo profil de monsieur Peeters" id="image" @click="playAudio">
+
           <p id="figcaption">Philippe Peeters</p>
       </div>
       <h1 id="title-container" >Développement créatif de site web</h1>
@@ -32,10 +33,10 @@ export default {
       // Cette méthode remonte la fenêtre au début de la page
       window.scrollTo(0, 0);
     },
-     playAudio() {
-      // Jouer le fichier audio "Bienvenue.M4A"
-      let audio = new Audio('./public/Bienvenue.M4A');
-      audio.play();
+      // Jouer le fichier audio "Bienvenue.M4A" lorsqu'un clic de l'utilisateur est détecté 
+    playAudio() {
+      document.addEventListener('click', () => { let audio = new Audio('./public/Bienvenue.M4A');
+      audio.play();}, { once: true });  
     },
   }
 }
