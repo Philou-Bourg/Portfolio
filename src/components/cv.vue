@@ -7,8 +7,12 @@
     },
     methods: {
       openCVFile() {
-      // Ouvre le fichier index.html dans une nouvelle fenêtre ou un nouvel onglet
-        window.open('/CuriculumVitae/Index.html', '_blank');
+     
+     // URL vers le fichier HTML sur GitHub (en mode "Raw")
+          let githubURL = 'https://raw.githubusercontent.com/Philou-Bourg/portfolio/main/public/CuriculumVitae/Index.html';
+
+      // Ouvre le fichier HTML en tenant compte de l'URL de base publique de Vite
+       window.location.href = githubURL;
       },
     },
   
