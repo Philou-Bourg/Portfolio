@@ -1,7 +1,5 @@
 # portfolio
 
-Ce modèle devrait vous aider à démarrer le développement avec Vue 3 dans Vite.
-
 ## Description
 
 Ce projet vise à montrer les réalisations faites dans le cadre d'une formation pour sensibiliser le visiteur
